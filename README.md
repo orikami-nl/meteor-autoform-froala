@@ -1,4 +1,4 @@
-Summernote for AutoForm
+Froala for AutoForm
 =======================
 
 Add WYSIWYG froala editor to your Meteor app.
