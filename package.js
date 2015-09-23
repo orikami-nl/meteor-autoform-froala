@@ -1,7 +1,7 @@
 Package.describe({
   name: 'donchess:autoform-froala',
-  summary: 'Froala editor for aldeed:autoform',
-  version: '0.0.3',
+  summary: '** Froala editor for aldeed:autoform',
+  version: '0.0.4',
   git: 'https://github.com/maxnatik/meteor-autoform-froala'
 });
 
@@ -12,9 +12,9 @@ Package.onUse(function(api) {
 
   api.use([
     'templating',
-    'aldeed:autoform@4.2.2'
+    'aldeed:autoform@5.0.0'
   ], both);
-  api.use('froala:editor@1.2.6', 'client');
+  api.use('froala:editor@1.2.8', 'client');
 
   api.addFiles([
     'lib/client/templates.html',
